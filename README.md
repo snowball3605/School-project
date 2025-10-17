@@ -1,6 +1,13 @@
 # Score Calculator
 This is just a school assignment.
 
+<img src="https://img.shields.io/badge/Python_3.13.5-blue" />
+<img src="https://img.shields.io/badge/Tkinter-red" />
+<img src="https://img.shields.io/badge/version-v1.0.0-green" />
+<img src="https://img.shields.io/badge/install_size-26MB-blue" />
+<img src="https://img.shields.io/badge/minzipped_size-24MB-blue" />
+
+
 ## Starting Method
 The program can be used in two modes: "UI" and "non-UI"—the command prompt and the user interface.
 
@@ -114,5 +121,4 @@ All major features completed on 17/10/2025
 Copyright © 2025 Chen Wenyuan(Raistey) All Rights Reserved
 
 This service only provides users with data processing and is not responsible for the user's behavior.
-
 Therefore, users should bear their own risks and are responsible for the content they store.
