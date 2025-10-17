@@ -19,28 +19,28 @@ Step 1: ``` py start.py -f ui.py ``` to start.
 ### Acceptable Variables
 
 - Enter student name:
-- Only English characters or spaces are allowed.
-- Cannot be left blank.
+   - Only English characters or spaces are allowed.
+   - Cannot be left blank.
 - Enter student ID:
-- Only numbers are allowed.
-- Can only contain 9 characters.
-- Cannot be left blank.
+   - Only numbers are allowed.
+   - Can only contain 9 characters.
+   - Cannot be left blank.
 - Enter test marks:
-- Can only be between 0 and 100 (inclusive).
-- Cannot be left blank.
+   - Can only be between 0 and 100 (inclusive).
+   - Cannot be left blank.
 - Enter project marks:
-- Can only be between 0 and 100 (inclusive).
-- Cannot be left blank
+   - Can only be between 0 and 100 (inclusive).
+   - Cannot be left blank
 - Enter Workshop marks:
-- Can only be between 0 and 100 (inclusive)
-- Cannot be left blank
+   - Can only be between 0 and 100 (inclusive)
+   - Cannot be left blank
 - Enter Exam marks:
-- Can only be between 0 and 100 (inclusive)
-- Cannot be left blank
+   - Can only be between 0 and 100 (inclusive)
+   - Cannot be left blank
 - Do you want to enter another student record? [Y/y] for Yes, [N/n] for No:
-- Can only enter <y/n/Y/N>
-- y/Y indicates you want to enter another student's score
-- n/N indicates you do not want to enter another student's score
+   - Can only enter <y/n/Y/N>
+      - y/Y indicates you want to enter another student's score
+      - n/N indicates you do not want to enter another student's score
 
 ## Usage
 
@@ -114,4 +114,5 @@ All major features completed on 17/10/2025
 Copyright © 2025 Chen Wenyuan(Raistey) All Rights Reserved
 
 This service only provides users with data processing and is not responsible for the user's behavior.
+
 Therefore, users should bear their own risks and are responsible for the content they store.
