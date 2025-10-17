@@ -42,4 +42,11 @@ def non_ui():
             return
 
 if __name__ == '__main__':
-    non_ui()
+    print("Please do not run this file directly, please run start.py")
+
+
+
+# All major features completed on 17/10/2025
+# Copyright © 2025 Chen Wenyuan(Raistey) All Rights Reserved
+# This service only provides users with data processing and is not responsible for the user's behavior.
+# Therefore, users should bear their own risks and are responsible for the content they store.

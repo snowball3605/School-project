@@ -106,3 +106,11 @@ def Calculate(Test_Mark, Project_Mark, Workshop_Mark, Exam_Mark):
         return f"Module Marks: {Module} ,Module Grade: A ,Remarks: Pass with A grade\n Well done!"
     else:
         return f"Invalid Module Grade\nPlease double-check the input marks"
+
+if __name__ == '__main__':
+    print("Please do not run this file directly, please run start.py")
+
+# All major features completed on 17/10/2025
+# Copyright © 2025 Chen Wenyuan(Raistey) All Rights Reserved
+# This service only provides users with data processing and is not responsible for the user's behavior.
+# Therefore, users should bear their own risks and are responsible for the content they store.

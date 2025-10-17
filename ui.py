@@ -20,45 +20,8 @@ Test_Mark = tk.Entry(main_window)
 Project_Mark = tk.Entry(main_window)
 Workshop_Mark = tk.Entry(main_window)
 Exam_Mark = tk.Entry(main_window)
-
-label_number1 = tk.Label(main_window, text="Student Name:", font=("Arial", 11))
-label_number1.place(x=10, y=20, width=100, height=30)
-
-totle = tk.Label(main_window, text="Total:", font=("Arial", 14))
-totle.place(x=300, y=20, width=100, height=30)
-
 number = tk.Label(main_window, text=i, font=("Arial", 14))
-number.place(x=300, y=45, width=100, height=30)
-
-Name.place(x=10, y=50, width=100, height=30)
-
-label_number2 = tk.Label(main_window, text="Student ID:", font=("Arial", 11))
-label_number2.place(x=150, y=20, width=100, height=30)
-
-ID.place(x=150, y=50, width=100, height=30)
-
-label_number3 = tk.Label(main_window, text="Test Mark:", font=("Arial", 11))
-label_number3.place(x=10, y=90, width=100, height=30)
-
-Test_Mark.place(x=10, y=120, width=100, height=30)
-
-label_number4 = tk.Label(main_window, text="Project Mark:", font=("Arial", 11))
-label_number4.place(x=150, y=90, width=100, height=30)
-
-Project_Mark.place(x=150, y=120, width=100, height=30)
-
-label_number5 = tk.Label(main_window, text="Workshop Mark:", font=("Arial", 11))
-label_number5.place(x=10, y=160, width=100, height=30)
-
-Workshop_Mark.place(x=10, y=190, width=100, height=30)
-
-label_number6 = tk.Label(main_window, text="Exam Mark:", font=("Arial", 11))
-label_number6.place(x=150, y=160, width=100, height=30)
-
-Exam_Mark.place(x=150, y=190, width=100, height=30)
-
 result_label = tk.Label(main_window, text="Result: ")
-result_label.place(x=10, y=280, width=420, height=120)
 
 def Check(name, ID, test_mark, project_mark, workshop_mark, exam_mark):
     if not(not(any(char in string.punctuation for char in name)) and not (any(char.isdigit() for char in name))):
@@ -128,10 +91,57 @@ def delete():
     Workshop_Mark.delete(0, tk.END)
     Exam_Mark.delete(0, tk.END)
 
-calculate_button = tk.Button(main_window, text="Calculate", command=calculate)
-calculate_button.place(x=10, y=240, width=100, height=30)
 
-calculate_button = tk.Button(main_window, text="Refresh", command=refresh)
-calculate_button.place(x=150, y=240, width=100, height=30)
+def ui():
+    label_number1 = tk.Label(main_window, text="Student Name:", font=("Arial", 11))
+    label_number1.place(x=10, y=20, width=100, height=30)
 
-main_window.mainloop()
+    totle = tk.Label(main_window, text="Total:", font=("Arial", 14))
+    totle.place(x=300, y=20, width=100, height=30)
+
+    number.place(x=300, y=45, width=100, height=30)
+
+    Name.place(x=10, y=50, width=100, height=30)
+
+    label_number2 = tk.Label(main_window, text="Student ID:", font=("Arial", 11))
+    label_number2.place(x=150, y=20, width=100, height=30)
+
+    ID.place(x=150, y=50, width=100, height=30)
+
+    label_number3 = tk.Label(main_window, text="Test Mark:", font=("Arial", 11))
+    label_number3.place(x=10, y=90, width=100, height=30)
+
+    Test_Mark.place(x=10, y=120, width=100, height=30)
+
+    label_number4 = tk.Label(main_window, text="Project Mark:", font=("Arial", 11))
+    label_number4.place(x=150, y=90, width=100, height=30)
+
+    Project_Mark.place(x=150, y=120, width=100, height=30)
+
+    label_number5 = tk.Label(main_window, text="Workshop Mark:", font=("Arial", 11))
+    label_number5.place(x=10, y=160, width=100, height=30)
+
+    Workshop_Mark.place(x=10, y=190, width=100, height=30)
+
+    label_number6 = tk.Label(main_window, text="Exam Mark:", font=("Arial", 11))
+    label_number6.place(x=150, y=160, width=100, height=30)
+
+    Exam_Mark.place(x=150, y=190, width=100, height=30)
+
+    result_label.place(x=10, y=280, width=420, height=120)
+
+    calculate_button = tk.Button(main_window, text="Calculate", command=calculate)
+    calculate_button.place(x=10, y=240, width=100, height=30)
+
+    calculate_button = tk.Button(main_window, text="Refresh", command=refresh)
+    calculate_button.place(x=150, y=240, width=100, height=30)
+
+    main_window.mainloop()
+
+if __name__ == '__main__':
+    print("Please do not run this file directly, please run start.py")
+
+# All major features completed on 17/10/2025
+# Copyright © 2025 Chen Wenyuan(Raistey) All Rights Reserved
+# This service only provides users with data processing and is not responsible for the user's behavior.
+# Therefore, users should bear their own risks and are responsible for the content they store.
