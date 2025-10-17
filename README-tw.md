@@ -1,11 +1,7 @@
 # 分數計算機
 這只是一份學校功課
 
-<img src="https://img.shields.io/badge/Python_3.13.5-blue" />
-<img src="https://img.shields.io/badge/Tkinter-red" />
-<img src="https://img.shields.io/badge/version-v1.0.0-green" />
-<img src="https://img.shields.io/badge/install_size-26MB-blue" />
-<img src="https://img.shields.io/badge/minzipped_size-24MB-blue" />
+<img src="https://img.shields.io/badge/Python_3.13.5-blue" /><img src="https://img.shields.io/badge/Tkinter-red" /><img src="https://img.shields.io/badge/version-v1.0.0-green" /><img src="https://img.shields.io/badge/install_size-26MB-blue" /><img src="https://img.shields.io/badge/minzipped_size-24MB-blue" />
 
 ## 啟動方式
 程式有分為"ui"和"non-ui"兩種使用方式，即是命令提示字元和使用者介面
