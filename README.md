@@ -107,3 +107,11 @@ If Module Marks are >=40 and <65, the module grade is C.
 If Module Marks are >=65 and <75, the module grade is B.
 
 If Module Marks are >=75 and <100, the module grade is A.
+
+## Copyright
+All major features completed on 17/10/2025
+
+Copyright © 2025 Chen Wenyuan(Raistey) All Rights Reserved
+
+This service only provides users with data processing and is not responsible for the user's behavior.
+Therefore, users should bear their own risks and are responsible for the content they store.

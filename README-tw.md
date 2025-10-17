@@ -94,3 +94,23 @@ Total number of B grade: [Module Grade取得B人數]
 Total number of C grade: [Module Grade取得C人數]
 Total number of F grade: [Module Grade取得F人數]
 ```
+
+## 計算過程
+``` CA Marks = Test Marks * 0.4 + Project Marks * 0.3 + Workshop Marks * 0.3 ```
+``` Module Marks = (CA Marks * 0.5) + Exam Marks * 0.5 ```
+
+如果CA Marks或Exam Marks<40時，Module Grade就會取得F
+
+如果Module Marks >=40和<65時，Module Grade就會取得C
+
+如果Module Marks >=65和<75時，Module Grade就會取得B
+
+如果Module Marks >=75和<=100時，Module Grade就會取得A
+
+## 版權
+所有主要功能已於2025年10月17日完成
+
+版權所有 © 2025 陳文淵（Raistey）保留所有權利
+
+本服務僅為使用者提供資料處理，並非對使用者的行為負責。
+因此，使用者應自行承擔風險，並對其儲存的內容負責。
