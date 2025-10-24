@@ -1,15 +1,20 @@
 import sys
 
-if len(sys.argv) != 3 or sys.argv[1] != '-f' or (sys.argv[2] != 'ui' and sys.argv[2] != 'non-ui'):
-    print("Usage: python start.py -f <ui/non-ui>")
-    sys.exit(1)
+def main():
+    if len(sys.argv) != 3 or sys.argv[1] != '-f' or (sys.argv[2] != 'ui' and sys.argv[2] != 'non-ui'):
+        print("Usage: python start.py -f <ui/non-ui>")
+        sys.exit(1)
 
-if sys.argv[2] == 'ui':
-    import ui
-    ui.ui()
-elif sys.argv[2] == 'non-ui':
-    import non_ui
-    non_ui.non_ui()
+    if sys.argv[2] == 'ui':
+        import ui
+        ui.ui()
+    elif sys.argv[2] == 'non-ui':
+        import non_ui
+        non_ui.non_ui()
+
+if __name__ == '__main__':
+    main()
+
 
 # All major features completed on 17/10/2025
 # Copyright © 2025 Chen Wenyuan(Raistey) All Rights Reserved
