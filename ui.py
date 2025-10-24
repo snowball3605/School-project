@@ -74,10 +74,10 @@ def refresh():
     global H_Test_Mark, H_Project_Mark, H_Workshop_Mark, H_Exam_Mark, i
     text = (
         f"There is/are {i} students' record(s) inputted, and the average marks is: {main.H_Module / i}\n"
-        f"Total number of A grade: {main.c_a}\n"
-        f"Total number of B grade: {main.c_b}\n"
-        f"Total number of C grade: {main.c_c}\n"
-        f"Total number of F grade: {main.c_f}"
+        f"Total number of A grade: {main.c[0]}\n"
+        f"Total number of B grade: {main.c[1]}\n"
+        f"Total number of C grade: {main.c[2]}\n"
+        f"Total number of F grade: {main.c[3]}"
     )
     result_label.configure(text=text)
     i = 0
